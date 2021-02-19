@@ -1,0 +1,7 @@
+{
+  "name": "teamup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
