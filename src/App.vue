@@ -4,15 +4,27 @@
   </ion-app>
 </template>
 
-<script lang="ts">
+<script >
 import { IonApp, IonRouterOutlet } from '@ionic/vue';
-import { defineComponent } from 'vue';
 
-export default defineComponent({
+export default {
   name: 'App',
   components: {
     IonApp,
     IonRouterOutlet
   }
-});
+};
 </script>
+<style>
+.div-center-container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.center-item {
+  /* margin-top:50%; */
+  margin-bottom: 50%;
+  
+}
+</style>
